@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #c1f8fc;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    color: #e1eafa;
+}
+.container{
+    background: rgb(16, 5, 114);
+    max-width: 500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    padding: 3px;
+}
+.form{
+    padding: 5px;
+    border-radius: 15px;
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form label{
+    font-size: 24px;
+    padding: 2px;
+    color: #e1eafa;
+}
+.form input{
+    text-align: left;
+    border-radius: 20px;
+    height: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.form input:focus{
+ background: #d0e1ff; 
+ transition: 0.2s; 
+}
+.form button{
+    background: #0069e0;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;   
+}
+.form button:hover{
+    background: #2489fc;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.separador{
+    background: rgb(160, 244, 255);
+    height: 1px;
+    border-radius: 50px;
+}
+
+.list-tasks {
+    padding: 5px;
+}
+.list-tasks ul {
+    list-style: none;
+}
+.list-tasks ul li{
+    background: #51adf8;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #0f0404;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.list-tasks ul li:hover{
+    background: #a2e2ff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-clear{
+    background: #0069e0;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px;
+}
+.btn-clear:hover{
+    background: #127df7;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer{
+     background: #c1e3fa;
+     border-radius: 20px;
+     padding: 15px;
+}
+.footer p {
+    color: #797979;
+    font-size: 12px;
+}
